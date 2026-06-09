@@ -9,6 +9,8 @@
 
 No scikit-learn. No scipy PCA. Just linear algebra.
 
+![PCA Dashboard Demo](images/demo_dashboard.png)
+
 ---
 
 ## What this project demonstrates
@@ -274,15 +276,14 @@ Test classes:
 
 ## Visualisations
 
-| Plot | Method |
-|------|--------|
-| 2-D PCA scatter with class colours | `plot_projection()` |
-| Explained variance bar chart | `plot_variance()` |
-| Cumulative variance with thresholds | `plot_variance()` |
-| Principal component loadings heatmap | `plot_eigenvectors()` |
-| Full 4-panel dashboard | `plot_full_dashboard()` |
-| 3-D PCA scatter | `plot_3d_projection()` (standalone) |
-| Before / after side-by-side | `plot_before_after()` (standalone) |
+| Plot | Method | Preview |
+|------|--------|---------|
+| 2-D PCA scatter with class colours | `plot_projection()` | *(see dashboard)* |
+| Explained variance bar + cumulative | `plot_variance()` | ![Variance plot](images/sample_variance.png) |
+| Principal component loadings heatmap | `plot_eigenvectors()` | ![Loadings heatmap](images/sample_loadings.png) |
+| Full 4-panel dashboard | `plot_full_dashboard()` | ![Full dashboard](images/sample_dashboard.png) |
+| 3-D PCA scatter | `plot_3d_projection()` (standalone) | |
+| Before / after side-by-side | `plot_before_after()` (standalone) | |
 
 ---
 
