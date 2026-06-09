@@ -114,7 +114,7 @@ pca-from-scratch/
 ## Installation
 
 ```bash
-git clone https://github.com/your-username/pca-from-scratch.git
+git clone https://github.com/your-username/principal-component-analysis.git
 cd pca-from-scratch
 pip install -r requirements.txt
 ```
