@@ -20,8 +20,6 @@ Usage examples:
 import argparse
 import os
 import sys
-import matplotlib
-matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
