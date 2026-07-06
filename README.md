@@ -116,6 +116,8 @@ pca-from-scratch/
 ```bash
 git clone https://github.com/ryanmartin060708-code/principal-component-analysis.git
 cd principal-component-analysis
+python -m venv .venv
+.venv/Scripts/activate
 pip install -r requirements.txt
 ```
 
